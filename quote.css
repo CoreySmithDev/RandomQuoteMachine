@@ -1,0 +1,70 @@
+.container {
+/*   border: 1px solid red; */
+}
+
+body {
+  background: #DECBB7;
+}
+
+#quoteWrapper {
+  background: #fff;
+  margin-top: 30px;
+  /*color: #000;*/
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+/*   display: flex; */
+/*   flex-flow: column; */
+  min-height: 300px;
+  position: relative;
+}
+
+#author {
+  font-size: 14px;
+  font-style: italic;
+  padding:10px;
+  display: block;
+font-weight: bold;
+  float: right;
+  clear: both;
+  margin-top: 20px;
+}
+
+.btn {
+float: right;
+clear: both;
+color: #fff;
+padding: 5px;
+}
+
+#quote {
+  margin: 0 auto;
+  text-align: center;
+  /*padding: 20px;*/
+  /*width: 90%;*/
+  position: relative;
+  
+  
+}
+
+.centered {
+  margin: 0 auto;
+  float: none;
+}
+
+#links {
+  height: 40px;
+  clear: both;
+  position: absolute;
+  bottom: 10px;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa {
+  font-size: 28px;
+}
